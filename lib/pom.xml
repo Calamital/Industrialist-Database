@@ -1,0 +1,24 @@
+<project xmlns="maven.apache.org"
+         xmlns:xsi="www.w3.org"
+         xsi:schemaLocation="maven.apache.org maven.apache.org">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.yourcompany</groupId>
+    <artifactId>YourProjectName</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- Dependency for org.json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20250517</version>
+        </dependency>
+    </dependencies>
+
+</project>
