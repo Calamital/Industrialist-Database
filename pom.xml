@@ -1,0 +1,32 @@
+<project xmlns="maven.apache.org"
+         xmlns:xsi="www.w3.org">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>IndustrialistDatabase</artifactId>
+    <groupId>com.calamital</groupId>
+    <version>1.0</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <!-- Dependency for org.json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20250517</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <testSourceDirectory>${project.basedir}/Processor</testSourceDirectory>
+        <testResources>
+            <testResource>
+                <directory>${project.basedir}/Processor</directory>
+            </testResource>
+        </testResources>
+    </build>
+
+</project>

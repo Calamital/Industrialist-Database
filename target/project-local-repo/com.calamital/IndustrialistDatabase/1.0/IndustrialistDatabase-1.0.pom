@@ -1,11 +1,10 @@
 <project xmlns="maven.apache.org"
-         xmlns:xsi="www.w3.org"
-         xsi:schemaLocation="maven.apache.org maven.apache.org">
+         xmlns:xsi="www.w3.org">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.yourcompany</groupId>
-    <artifactId>YourProjectName</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>IndustrialistDatabase</artifactId>
+    <groupId>com.calamital</groupId>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
