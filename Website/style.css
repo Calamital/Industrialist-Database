@@ -1,0 +1,43 @@
+.item-space {
+    width: 400px;
+    height: 200px;
+    border: 4px solid #323232;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+.item-space h2 {
+    margin: 0px;
+    text-align: center;
+    font-size: 26px;
+    color: #323232;
+}
+
+.item-space hr {
+    border: 1px solid #323232;
+    margin: 0px;
+}
+
+.item-space div {
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-attachment: fixed;
+    background-size: 70px;
+}
+
+.item-space p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+body {
+    font-family: "Google Sans Code";
+}
+
+#itemSpace {
+    display: none;
+}
