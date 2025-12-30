@@ -1,8 +1,8 @@
 (async () => {
-    await import(
-        "../node_modules/fast-average-color/dist/index.browser.min.js"
+    const { default: FastAverageColor } = await import(
+        "https://cdn.jsdelivr.net/npm/fast-average-color/dist/index.browser.min.js"
     );
-    await main()
+    await main(FastAverageColor);
 })();
 async function main() {
 
