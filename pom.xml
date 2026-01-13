@@ -28,8 +28,8 @@
     <build>
         <sourceDirectory>${project.basedir}/main</sourceDirectory>
         <resources>
-            <resource>${project.basedir}/main/java/Processor</resource>
-            <resource>${project.basedir}/main/java/WikiScraper/FindIcons</resource>
+            <resource>${project.basedir}/src/main/java/Processor</resource>
+            <resource>${project.basedir}/src/main/java/WikiScraper/FindIcons</resource>
         </resources>
     </build>
 

@@ -1,6 +1,7 @@
 {
     "java.configuration.updateBuildConfiguration": "automatic",
     "java.project.sourcePaths": [
-        "main"
+        "main/Processor",
+        "main/WikiScraper/FindIcons"
     ]
 }

@@ -8,16 +8,20 @@
 </head>
 <body>
     <p id = "debug"></p>
-    <div class = "item-Spaces" id = "itemSpaces"></div>
+    <div id = "filters">
+        <h2>Sort By</h2>
+        <select name = "Factories" id = "factories"></select>
+        <button id = "search">Search</button>
+    </div>
     <div class = "item-space" id = "itemSpace">
-        <div id = "icon">
-            <h2 id = "name">Raw Gas</h2>
-        </div>
-        <hr>
         <p id = "machine">Machine: Natural Gas Well</p>
         <p id = "time">Time: 1s</p>
         <p id = "mf">Energy: 45kMF</p>
-        <p id = "inputs">Inputs: none</p>
+    </div>
+    <div class = "item" id = "item">
+        <div id = "icon">
+            <h2 id = "name">Raw Gas</h2>
+        </div>
     </div>
     <script type = "module" src = "script.js"></script>
 </body>
